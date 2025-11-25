@@ -1,0 +1,31 @@
+
+.btn2 button {
+  border-radius: .25rem;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 700;
+  padding-left: 45px;
+  padding-right: 45px;
+  color: #fff;
+  -webkit-clip-path: polygon(10% 0%, 100% 0, 100% 30%, 100% 70%, 90% 100%, 30% 100%, 0% 100%, 0% 30%);
+  clip-path: polygon(10% 0%, 100% 0, 100% 30%, 100% 70%, 90% 100%, 30% 100%, 0% 100%, 0% 30%);
+  height: 40px;
+  font-size: 0.7rem;
+  line-height: 14px;
+  letter-spacing: 1.2px;
+  transition: .2s .1s;
+  background-image: linear-gradient(90deg, rgba(39, 57, 255, 0.714), rgba(165, 39, 255, 0.76));
+  border: 0 solid;
+  overflow: hidden;
+  font-weight: 700;
+}
+
+.btn2 button:hover {
+  cursor: pointer;
+  transition: all .3s ease-in;
+  
+}
+
+.btn2 button:active {
+  background-image: linear-gradient(-90deg, rgb(39, 57, 255), rgb(165, 39, 255));
+}

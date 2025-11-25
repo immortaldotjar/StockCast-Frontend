@@ -1,0 +1,51 @@
+.searchMarketContainer {
+    height: 100%;
+    width: 90vw;
+    background-color: rgba(32, 32, 32, 0.693);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.searchIPContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.tvNewsContainer {
+    overflow: hidden;
+    border:2px solid rgb(0, 106, 255);
+    border-radius: 10px;
+    z-index: 0;
+    box-shadow: 0px 20px 207px 10px rgba(57, 39, 255, 0.48);
+    margin-top: 20px;
+}
+
+.searchMarketContainer2 {
+    height: 100%;
+    width: 90vw;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    
+}
+
+.tvNewsContainer2 {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    border:2px solid rgb(0, 106, 255);
+    border-radius: 10px;
+    z-index: 0;
+    box-shadow: 0px -50px 100px 20px rgba(57, 39, 255, 0.48);
+    
+}

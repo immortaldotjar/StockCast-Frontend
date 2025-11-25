@@ -1,0 +1,34 @@
+.inputContainer{
+    padding: 0px 20px;
+    margin-bottom: 18px;
+    border-radius: 7px;
+    
+}
+.input{
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid rgb(87, 87, 87);
+    border-radius: 4px;
+    background-color: transparent;
+    width: 100%;
+    color: white;
+}
+
+input:focus{
+    outline: none;
+    background-color: transparent;
+}
+
+input::placeholder{
+    color: grey;
+    font-size: smaller;
+}
+
+.inputContainer h4{
+    color:rgb(140, 140, 140);
+    font-size: 13px;
+}
+
+::-ms-reveal {
+  filter: invert(100%);
+}

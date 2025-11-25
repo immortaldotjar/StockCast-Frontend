@@ -1,0 +1,140 @@
+.s1 {
+    animation: stroke-1 1s cubic-bezier(0.19, 1, 0.22, 1) 0s both;
+}
+
+.s2 {
+    animation: stroke-2 1s cubic-bezier(0.19, 1, 0.22, 1) 0.12s both;
+}
+
+.s3 {
+    animation: stroke-3 1s cubic-bezier(0.19, 1, 0.22, 1) 0.24s both;
+}
+
+.s4 {
+    animation: stroke-4 1s cubic-bezier(0.19, 1, 0.22, 1) 0.36s both;
+}
+
+@keyframes stroke-1 {
+    0% {
+        stroke-dashoffset: 5px;
+        stroke-dasharray: 5px;
+    }
+    100% {
+        stroke-dashoffset: 0;
+        stroke-dasharray: 5px;
+    }
+}
+
+@keyframes stroke-2 {
+    0% {
+        stroke-dashoffset: 8px;
+        stroke-dasharray: 8px;
+    }
+
+    100% {
+        stroke-dashoffset: 0;
+        stroke-dasharray: 8px;
+    }
+}
+
+@keyframes stroke-3 {
+    0% {
+        stroke-dashoffset: 11px;
+        stroke-dasharray: 11px;
+    }
+
+    100% {
+        stroke-dashoffset: 0;
+        stroke-dasharray: 11px;
+    }
+}
+
+@keyframes stroke-4 {
+    0% {
+        stroke-dashoffset: 14px;
+        stroke-dasharray: 14px;
+    }
+
+    100% {
+        stroke-dashoffset: 0;
+        stroke-dasharray: 14px;
+    }
+}
+
+
+/*reverse animation*/
+.rev-s1 {
+    animation: rev-stroke-1 1s cubic-bezier(0.19, 1, 0.22, 1) 0.36s ;
+}
+
+.rev-s2 {
+    animation: rev-stroke-2 1s cubic-bezier(0.19, 1, 0.22, 1) 0.24s ;
+}
+
+.rev-s3 {
+    animation: rev-stroke-3 1s cubic-bezier(0.19, 1, 0.22, 1) 0.12s ;
+}
+
+.rev-s4 {
+    animation: rev-stroke-4 1s cubic-bezier(0.19, 1, 0.22, 1) 0s ;
+}
+
+@keyframes rev-stroke-1 {
+    0% {
+        stroke-dashoffset: 0;
+        stroke-dasharray: 5px;
+    }
+
+    100% {
+        stroke-dashoffset: 5px;
+        stroke-dasharray: 5px;
+    }
+}
+
+@keyframes rev-stroke-2 {
+    0% {
+        stroke-dashoffset: 0;
+        stroke-dasharray: 8px;
+    }
+    
+    100% {
+        stroke-dashoffset: 8px;
+        stroke-dasharray: 8px;
+    }
+}
+
+@keyframes rev-stroke-3 {
+    0% {
+        stroke-dashoffset: 0;
+        stroke-dasharray: 11px;
+    }
+    
+    100% {
+        stroke-dashoffset: 11px;
+        stroke-dasharray: 11px;
+    }
+}
+
+@keyframes rev-stroke-4 {
+    0% {
+        stroke-dashoffset: 0;
+        stroke-dasharray: 14px;
+    }
+    
+    100% {
+        stroke-dashoffset: 14px;
+        stroke-dasharray: 14px;
+    }
+}
+
+
+.dot svg{
+    stroke: white;
+    stroke-width: 3px;
+}
+.bar svg{
+    stroke: white;
+    stroke-width: 3px;
+}
+
+

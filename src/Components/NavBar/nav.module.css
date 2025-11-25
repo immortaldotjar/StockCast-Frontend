@@ -1,0 +1,85 @@
+.navbar {
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 97vw;
+    z-index: 100;
+    height: 70px;
+    /* border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px; */
+    border-radius: 50px;
+    color: white;
+    padding: 30px 50px;
+    position: sticky;
+    margin: 10px;
+    top: 10px;
+    box-shadow: 0 0 50px black;
+}
+
+.navList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+    height: 100%;
+}
+
+.navList img {
+    height: 30px;
+    width: 30px;
+}
+
+.navList .logo {
+    margin-right: auto;
+    margin-left: 40px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.navList .logo p {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.navigation:nth-child(6) {
+    margin-right: auto;
+
+}
+
+.navigation {
+    margin-right: 40px;
+}
+
+.navLnk {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    position: relative;
+
+    display: inline-block;
+    padding-bottom: 6px;
+}
+
+
+.activeLink {
+    color: rgb(116, 142, 255);
+    text-shadow: 0 0 10px rgba(165, 39, 255, 1);
+    text-decoration: none;
+    font-size:20px;
+    transition: .3s ease-in-out;
+
+}
+
+.inactiveLink {
+    color: white;
+    text-decoration: none;
+    transition: .3s ease-in-out;
+}
+
+.username{
+    border: 1px solid white;
+    padding: 5px ;
+    border-radius: 20px;
+}

@@ -1,0 +1,72 @@
+.cardContainer{
+    height: 350px;
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    background-color:#1a1a1a ;
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    z-index: 80;
+    transition: .5s ;
+    cursor: pointer;
+}
+
+.row1{
+    display: flex;
+    gap: 30px;
+}
+
+.row2{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center ;
+}
+
+.cardContainer .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+.cardContainer .logo img{
+    height:50px;
+    width: 50px;
+}
+
+.cardContainer .name{
+    font-weight: 800;
+    font-size: larger;
+}
+
+.cardContainer .symbol{
+    font-size: small;
+}
+
+.red:hover{
+    border-color: red;
+    box-shadow: red 0px 0px 20px;
+    transform: scale(1.05);
+}
+.green:hover{
+    border-color: rgb(0, 255, 81);
+    box-shadow: rgba(0, 255, 42, 0.796) 0px 0px 20px;
+    transform: scale(1.05);
+}
+
+.prices span{
+    font-weight: 700;
+}
+
+
+
+.cart:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #8282f7;
+}

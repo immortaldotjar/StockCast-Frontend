@@ -1,0 +1,23 @@
+.btn{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 10px 20px;
+}
+
+.btn button{
+    height: 40px;
+    width: 100%;
+    background-color: white;
+    border: none;
+    border-radius: 7px;
+    font-weight: 700;
+    color: black;
+    transition: .3s ease-in-out;
+}
+
+.btn button:active{
+    background: linear-gradient(to left, #fb7185, #a21caf, #6366f1);
+    color: white;
+    transition: .3 ease-in-out;
+}
