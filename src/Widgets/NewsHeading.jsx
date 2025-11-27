@@ -1,9 +1,9 @@
-import styles from './css/newsHead.module.css';
+import styles from './css/newsHead.module.css'
 
 const Heading = ({ head }) => {
   return (
     <div>
-        <p className={styles.newsHeading}>{head}</p>
+      <p className={styles.newsHeading}>{head}</p>
     </div>
   )
 }

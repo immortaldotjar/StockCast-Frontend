@@ -1,38 +1,27 @@
-import React from 'react'
 import './App.css'
-
 import SignIn from './Components/SignIn'
 import SignUp from './Components/SignUp'
-import User from './Components/User'
 import NavBar from './Components/NavBar'
-
 import Home from './Pages/Home'
-import Tickers from './Components/Charts/Tickers'
 import News from './Pages/News'
-import Applechart from './Components/Charts/Applechart'
 import CryptoCurrency from './Pages/Cryptocurrency'
-import Card from './Components/Card'
 import Stocks from './Pages/Stocks'
-import { Routes, Route, Link,useLocation } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom"
 import Charts from './Pages/Charts'
-import { AnimatePresence, motion } from "framer-motion";
-import { useState } from 'react'
+import { AnimatePresence, motion } from "framer-motion"
 import Dashboard from './Pages/Dashboard'
-
 
 const page = {
   initial: { opacity: 0 },
   animate: { opacity: 1 },
-  exit: { opacity: 0 },
-};
+  exit: { opacity: 0 }
+}
 
 const App = () => {
-  const loc = useLocation();
+  const loc = useLocation()
   const hideNav = loc.pathname === "/signin" || loc.pathname === "/signup"
 
-
   return (
-
     <div>
       {!hideNav && <NavBar />}
       <AnimatePresence mode="wait">
@@ -54,13 +43,11 @@ const App = () => {
             <Route path="/signup" element={<SignUp />} />
             <Route path="/signin" element={<SignIn />} />
             <Route path="/dashboard" element={<Dashboard />} />
-            
             <Route path="*" element={<h2>404</h2>} />
           </Routes>
         </motion.div>
       </AnimatePresence>
     </div>
-    
   )
 }
 

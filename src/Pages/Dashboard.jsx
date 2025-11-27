@@ -1,8 +1,11 @@
 import React from 'react'
 import Dash from '../Components/Dashboard'
+
 const Dashboard = () => {
   return (
-    <div><Dash/></div>
+    <div>
+      <Dash />
+    </div>
   )
 }
 

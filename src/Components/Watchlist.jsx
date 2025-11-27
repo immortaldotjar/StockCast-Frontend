@@ -1,5 +1,5 @@
-import React from 'react';
-import { MiniChart } from 'react-ts-tradingview-widgets';
+import React from 'react'
+import { MiniChart } from 'react-ts-tradingview-widgets'
 
 const Watchlist = ({ symbol }) => {
   return (
@@ -15,7 +15,7 @@ const Watchlist = ({ symbol }) => {
         underLineColor="rgba(165, 39, 255, 0.48)"
       />
     </div>
-  );
-};
+  )
+}
 
-export default Watchlist;
+export default Watchlist
